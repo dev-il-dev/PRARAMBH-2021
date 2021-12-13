@@ -9,7 +9,7 @@
     background-image: url(earthbg.jpg);
     background-size: cover;
    text-align: center;
-   padding-top: 6%;
+   padding-top: 7%;
    padding-bottom: 15%;
    font-size: 400%;
    font-weight: bolder;
@@ -20,6 +20,31 @@
 }
 .main_text{
   font-size: 50px;
+}
+.navigationBar{
+  width: 100vw;
+  height: 100px;
+  padding: 0px 80px 0px 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+  background-color: rgba(255, 255, 255, 0);
+}
+.logo1{
+  background-image: url('final edc logo.png');
+  background-position: center;
+  background-size: cover;
+  width: 350px;
+  height: 50px;
+}
+.logo2{
+  background-image: url('institute logo_transparent_background.png');
+  background-position: center;
+  background-size: cover;
+  width: 60px;
+  height: 65px;
 }
 #main{
     text-align: center;
@@ -148,4 +173,30 @@
   .main_text{
     font-size: 35px;
   }
+  .navigationBar{
+    width: 100vw;
+    height: 50px;
+    padding: 0px 30px 0px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  .logo1{
+    background-image: url('final edc logo.png');
+    background-position: center;
+    background-size: cover;
+    width: 175px;
+    height: 25px;
+  }
+  .logo2{
+    background-image: url('institute logo_transparent_background.png');
+    background-position: center;
+    background-size: cover;
+    width: 30px;
+    height: 32.5px;
+  }
+  
 }
