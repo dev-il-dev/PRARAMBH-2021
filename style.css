@@ -5,6 +5,26 @@
   html, body{
     overflow-x: hidden;
   }
+  /* Works on Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgb(255, 255, 255) rgb(0, 0, 0);
+}
+
+/* Works on Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 6px;
+}
+
+*::-webkit-scrollbar-track {
+  background: rgb(0, 0, 0);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  border: 0px solid rgb(0, 0, 0);
+}
 #headline{
     background-image: url(earthbg.jpg);
     background-size: cover;
