@@ -18,7 +18,9 @@
    color: rgb(255, 255, 255);
 
 }
-
+.main_text{
+  font-size: 50px;
+}
 #main{
     text-align: center;
     
@@ -139,4 +141,11 @@
     min-width: 3rem;
     border-radius: 6.25rem;
     opacity: .5
+}
+
+
+@media (max-width: 576px) {
+  .main_text{
+    font-size: 35px;
+  }
 }
