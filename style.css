@@ -51,6 +51,7 @@
   position: fixed;
   top: 0px;
   background-color: rgba(255, 255, 255, 0);
+  z-index: 100;
 }
 .logo1{
   background-position: center;
@@ -65,6 +66,19 @@
   background-size: cover;
   width: 60px;
   height: 65px;
+}
+.FAQ {
+  width: 90vw;
+  margin: auto;
+  padding: 30px;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(17, 25, 40, 0.75);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
+.FAQAns{
+  color: rgba(240, 255, 251, 0.774);
 }
 #main{
     text-align: center;
@@ -203,6 +217,7 @@
     position: fixed;
     top: 0px;
     background-color: rgba(255, 255, 255, 0);
+    z-index: 100;
   }
   .logo1{
     background-image: url('EDC logo_Prarambh-01.png');
