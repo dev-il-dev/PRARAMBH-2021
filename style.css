@@ -205,7 +205,7 @@
     background-color: rgba(255, 255, 255, 0);
   }
   .logo1{
-    background-image: url('final edc logo.png');
+    background-image: url('EDC logo_Prarambh-01.png');
     background-position: center;
     background-size: cover;
     width: 175px;
@@ -218,5 +218,15 @@
     width: 30px;
     height: 32.5px;
   }
-  
+  #x1  { align-items: center;
+    text-align: center;
+    margin: auto;
+    max-width: 80%;
+    animation: typing 2s steps(22), blink .5s step-end infinite;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right:0px solid;
+    font-family: monospace;
+    font-size: 1.5em;
+  }
 }
