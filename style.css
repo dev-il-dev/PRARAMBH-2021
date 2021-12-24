@@ -89,6 +89,16 @@
     padding-bottom: 20%;
     
 }
+.top_article{
+  width: 60vw;
+  margin: auto;
+  padding: 30px;
+  backdrop-filter: blur(16px) saturate(180%);
+  -webkit-backdrop-filter: blur(16px) saturate(180%);
+  background-color: rgba(17, 25, 40, 0.75);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+}
 #x1  { align-items: center;
     text-align: center;
     margin: auto;
@@ -243,5 +253,15 @@
     border-right:0px solid;
     font-family: monospace;
     font-size: 1.5em;
+  }
+  .top_article{
+    width: 60vw;
+    margin: auto;
+    padding: 30px;
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
   }
 }
