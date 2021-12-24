@@ -113,6 +113,16 @@
   font-family: 'Raleway';
   font-size: 2.5rem;
 }
+#box2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 50px;
+  color: white;
+  font-family: 'Raleway';
+  font-size: 2.5rem;
+}
 .gradient-border {
   margin: auto;
   --borderWidth: 3px;
